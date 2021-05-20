@@ -10,7 +10,7 @@ namespace Class_and_Objects
     {
         private static int _seedNumber = 1234567890;
 
-        private List<Transaction> _allTransactions = new List<Transaction>();
+        public List<Transaction> _allTransactions = new List<Transaction>();
 
         public string Number { get; }
 
